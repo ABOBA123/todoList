@@ -1,0 +1,21 @@
+.todoInput{
+    width: 638px;
+    height: 54px;
+}
+.Cliar-batton{
+    width: 90px;
+    height: 52px;
+}
+.todos{
+    margin-top: 40px;
+}
+.todo{
+    width:  736px;
+    height:  72px;
+    
+}
+.circle{
+    width: 24px;
+    height: 24px;
+    border: 2px solid #4ea8de;
+}
