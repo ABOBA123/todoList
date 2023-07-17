@@ -1,0 +1,31 @@
+.banner {
+  width: 100%;
+  height: 200px;
+  background: #0d0d0d;
+}
+.todoInput {
+  width: 638px;
+  height: 54px;
+}
+.Cliar-batton {
+  width: 90px;
+  height: 52px;
+}
+.todos {
+  margin-top: 40px;
+}
+.todo {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+}
+.circle {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #4ea8de;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/my-todos.css" />
+</head>
+
+<body>
+    <div class="slide d-fl ali-cent fl-col">
+        <div class="banner d-fl ali-cent just-cont-cent">
+            <img style="width: 22px; height: 36px; margin: 20px" src="images/rocket.svg" />
+            <h1 style="font-size: 55px;">
+                <span class="blue">to</span>
+                <span class="purple">do</span>
+            </h1>
+        </div>
+        <div class="container">
+            <div class="jc-row">
+                <input class="todoInput grey border-none border-radi col-white" type="text"
+                    placeholder="Adicione uma nova tarefa" />
+                <button class="col-white back-blue border-radi Cliar-batton border-none cursor-p ">
+                    Criar <img class="vertical-aline-mid" src="images/Vector.svg" />
+                </button>
+            </div>
+            <div class="todos d-fl just-sp-betw">
+                <p class="blue">Tarefas criadas</p>
+                <p class="purple">Concluídas</p>
+            </div>
+            <div id="data:my-todos">
+
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="javascripts/my-todos.js"></script>
+</body>
+
+</html>
