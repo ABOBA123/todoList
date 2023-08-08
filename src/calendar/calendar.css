@@ -2,6 +2,15 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+td{
+  /* display: flex;
+  justify-content: center; */
+  background-color: red;
+}
+.asd{
+  display: flex;
+  justify-content: center;
+}
 .banner {
   width: 100%;
   height: 180px;
@@ -71,4 +80,3 @@ body{
     background-color: #acaebb48;
     transition: all 0.7s;
   }
-  
